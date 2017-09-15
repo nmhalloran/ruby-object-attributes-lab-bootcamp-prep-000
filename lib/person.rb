@@ -1,6 +1,6 @@
 class Person
-  def initialize(breed)
-    @breed = breed
+  def initialize(name)
+    @name = name
   def name=(new_name)
     @name = new_name
   end
@@ -19,5 +19,5 @@ class Person
 
 end
 
-lassie = Dog.new("Collie")
-puts lassie.breed
+joe = Person.new("Collie")
+puts joe.name
