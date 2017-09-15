@@ -20,4 +20,4 @@ class Person
 end
 
 joe = Person.new("Collie")
-puts joe.name
+joe.name
